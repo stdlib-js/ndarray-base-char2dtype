@@ -52,7 +52,7 @@ npm install @stdlib/ndarray-base-char2dtype
 var char2dtype = require( '@stdlib/ndarray-base-char2dtype' );
 ```
 
-#### char2dtype( \[dtype] )
+#### char2dtype( \[ch] )
 
 Returns the [data type][@stdlib/ndarray/dtypes] string associated with a provided [single letter character abbreviation][@stdlib/ndarray/base/dtype-char].
 
