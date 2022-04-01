@@ -1,0 +1,39 @@
+{
+  "name": "@stdlib/ndarray-base-char2dtype",
+  "version": "0.0.0",
+  "description": "Return the data type string associated with a provided single letter abbreviation.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/ndarray-base-char2dtype.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "types",
+    "base",
+    "ndarray",
+    "data",
+    "type",
+    "dtype",
+    "c",
+    "abbreviation",
+    "abbr",
+    "multidimensional",
+    "array",
+    "utilities",
+    "utility",
+    "utils",
+    "util"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
