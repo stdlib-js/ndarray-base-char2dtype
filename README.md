@@ -34,14 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-base-char2dtype
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import char2dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-char2dtype@deno/mod.js';
+var char2dtype = require( '@stdlib/ndarray-base-char2dtype' );
 ```
 
 #### char2dtype( \[ch] )
@@ -91,8 +107,8 @@ var out = char2dtype();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import dtypeChar from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype-char@deno/mod.js';
-import char2dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-char2dtype@deno/mod.js';
+var dtypeChar = require( '@stdlib/ndarray-base-dtype-char' );
+var char2dtype = require( '@stdlib/ndarray-base-char2dtype' );
 
 var chars;
 var out;
@@ -148,7 +164,7 @@ for ( i = 0; i < chars.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -204,12 +220,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/ndarray-base-char2dtype/tree/deno
 [umd-url]: https://github.com/stdlib-js/ndarray-base-char2dtype/tree/umd
 [esm-url]: https://github.com/stdlib-js/ndarray-base-char2dtype/tree/esm
+[branches-url]: https://github.com/stdlib-js/ndarray-base-char2dtype/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-char2dtype/main/LICENSE
 
-[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes/tree/deno
+[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes
 
-[@stdlib/ndarray/base/dtype-char]: https://github.com/stdlib-js/ndarray-base-dtype-char/tree/deno
+[@stdlib/ndarray/base/dtype-char]: https://github.com/stdlib-js/ndarray-base-dtype-char
 
 </section>
 
