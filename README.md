@@ -34,32 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-base-char2dtype
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-char2dtype = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-char2dtype@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-char2dtype@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.char2dtype;
-})();
-</script>
+var char2dtype = require( '@stdlib/ndarray-base-char2dtype' );
 ```
 
 #### char2dtype( \[ch] )
@@ -108,14 +106,9 @@ var out = char2dtype();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype-char@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-char2dtype@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var dtypeChar = require( '@stdlib/ndarray-base-dtype-char' );
+var char2dtype = require( '@stdlib/ndarray-base-char2dtype' );
 
 var chars;
 var out;
@@ -140,11 +133,6 @@ for ( i = 0; i < chars.length; i++ ) {
     out = char2dtype( chars[ i ] );
     console.log( '%s => %s', chars[ i ], out );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -232,12 +220,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/ndarray-base-char2dtype/tree/deno
 [umd-url]: https://github.com/stdlib-js/ndarray-base-char2dtype/tree/umd
 [esm-url]: https://github.com/stdlib-js/ndarray-base-char2dtype/tree/esm
+[branches-url]: https://github.com/stdlib-js/ndarray-base-char2dtype/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-char2dtype/main/LICENSE
 
-[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes/tree/umd
+[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes
 
-[@stdlib/ndarray/base/dtype-char]: https://github.com/stdlib-js/ndarray-base-dtype-char/tree/umd
+[@stdlib/ndarray/base/dtype-char]: https://github.com/stdlib-js/ndarray-base-dtype-char
 
 </section>
 
