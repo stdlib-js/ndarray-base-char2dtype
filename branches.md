@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/char2dtype"
-click B href "https://github.com/stdlib-js/ndarray-base-char2dtype/tree/main"
-click C href "https://github.com/stdlib-js/ndarray-base-char2dtype/tree/production"
-click D href "https://github.com/stdlib-js/ndarray-base-char2dtype/tree/esm"
-click E href "https://github.com/stdlib-js/ndarray-base-char2dtype/tree/deno"
-click F href "https://github.com/stdlib-js/ndarray-base-char2dtype/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/char2dtype"
+%% click B href "https://github.com/stdlib-js/ndarray-base-char2dtype/tree/main"
+%% click C href "https://github.com/stdlib-js/ndarray-base-char2dtype/tree/production"
+%% click D href "https://github.com/stdlib-js/ndarray-base-char2dtype/tree/esm"
+%% click E href "https://github.com/stdlib-js/ndarray-base-char2dtype/tree/deno"
+%% click F href "https://github.com/stdlib-js/ndarray-base-char2dtype/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/char2dtype
