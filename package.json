@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@stdlib/ndarray-base-dtype-char": "^0.0.8",
-    "@stdlib/utils-object-inverse": "^0.0.8"
+    "@stdlib/utils-object-inverse": "^0.0.8",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2"
   },
   "devDependencies": {
     "@stdlib/bench": "^0.0.12",
