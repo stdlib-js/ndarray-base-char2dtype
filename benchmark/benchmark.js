@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var dtypeChar = require( '@stdlib/ndarray-base-dtype-char' );
 var pkg = require( './../package.json' ).name;
 var char2dtype = require( './../lib' );
