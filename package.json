@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-char2dtype",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Return the data type string associated with a provided single letter abbreviation.",
   "license": "Apache-2.0",
   "author": {
@@ -38,13 +38,13 @@
   },
   "dependencies": {
     "@stdlib/ndarray-base-dtype-char": "^0.2.1",
-    "@stdlib/utils-object-inverse": "^0.2.1"
+    "@stdlib/utils-object-inverse": "^0.2.2"
   },
   "devDependencies": {
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.1"
+    "@stdlib/bench-harness": "^0.2.2"
   },
   "engines": {
     "node": ">=0.10.0",
