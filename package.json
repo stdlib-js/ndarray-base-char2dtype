@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@stdlib/ndarray-base-dtype-char": "^0.2.2",
-    "@stdlib/object-inverse": "github:stdlib-js/object-inverse#main"
+    "@stdlib/object-inverse": "github:stdlib-js/object-inverse#main",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
