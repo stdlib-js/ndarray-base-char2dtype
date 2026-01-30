@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/ndarray-base-dtype-char": "^0.2.2",
+    "@stdlib/ndarray-base-dtype-char": "^0.3.0",
     "@stdlib/object-inverse": "github:stdlib-js/object-inverse#main"
   },
   "devDependencies": {
@@ -80,7 +80,6 @@
     "utils",
     "util"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
