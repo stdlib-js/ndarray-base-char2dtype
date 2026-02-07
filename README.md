@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import char2dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-char2dtype@deno/mod.js';
+import char2dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-char2dtype@v0.2.3-deno/mod.js';
 ```
 
 #### char2dtype( \[ch] )
@@ -103,7 +103,7 @@ var out = char2dtype();
 
 ```javascript
 import dtypeChar from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtype-char@deno/mod.js';
-import char2dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-char2dtype@deno/mod.js';
+import char2dtype from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-char2dtype@v0.2.3-deno/mod.js';
 
 var chars = [
     dtypeChar( 'float64' ),
